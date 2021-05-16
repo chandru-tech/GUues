@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Guest List</title>
+        <script src = "main.js"></script>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <center>
+            <h1>Guest List</h1>
+            <input type = "text" id = "name">
+            <button id = "submit" onclick = "submit()" >Submit</button>
+            <br>
+            <hr>
+            <p id = "comma"></p>
+            <hr>
+            <br>
+            <h1>Display</h1>
+            <button onclick = "display()" >Display</button>
+            <p id = "list_p"></p>
+            <hr>
+            <button id = "sort_btn" onclick = "sorting()" >Sort</button>
+            <p id = "sortedNames"></p>
+            <hr>
+            <br>
+            <input type = "text" id = "search">
+            <button onclick = "search()">Search</button>
+            <p id = "searchResults"></p>
+        </center>
+    </body>
+</html>
